@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Feed Mute for LinkedIn",
+  "version": "1.0.0",
+  "description": "Hides LinkedIn feed posts that mention keywords you choose.",
+  "homepage_url": "https://www.liorpesoa.com/linkedin-feed-mute",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Edit muted keywords",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
