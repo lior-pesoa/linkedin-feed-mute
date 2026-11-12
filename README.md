@@ -8,7 +8,7 @@ More about it: https://www.liorpesoa.com/linkedin-feed-mute
 
 ## Not on the Chrome Web Store
 
-This extension isn't published on the Chrome Web Store and hasn't been reviewed by Google. You install it yourself in Developer mode. It's about 150 lines of plain JavaScript, so you can read all of it before you do.
+This extension isn't published on the Chrome Web Store and hasn't been reviewed by Google. You install it yourself in Developer mode. It's about 100 lines of plain JavaScript, so you can read all of it before you do.
 
 ## Install
 
